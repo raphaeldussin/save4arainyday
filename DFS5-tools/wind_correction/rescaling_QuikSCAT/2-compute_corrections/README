@@ -1,0 +1,5 @@
+# 1. compute means with make_means.ksh
+
+# 2. from the ratios computed before, correct a few things with correct_hudson.py
+
+# 3. create corrections files with create_corrections.py

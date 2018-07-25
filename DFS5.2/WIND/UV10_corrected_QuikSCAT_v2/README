@@ -1,0 +1,6 @@
+Those files are from correction towards QuikSCAT (v2) which
+consists of adding a corrective factor as : 
+
+( smoothed_ratio( U10_QuikSCAT / U10_interim) - 1 ) * <U10_interim>
+
+files have been redrowned to avoid gradient at the coast due to multiplicative factor

@@ -1,0 +1,7 @@
+On prends la moyenne globale = 2.805930
+
+Celle de DFS5.1.1 = 2.89394237
+
+Or on a vu dans le run ORCA025.L75 que ca serait mieux avec un facteur 1.04
+
+d'ou ratio = (2.89394237 * 1.04 ) / 2.805930 = 1.07

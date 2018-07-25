@@ -1,0 +1,30 @@
+1. traitement du fichier de fraction de Glace SSMI :
+
+   -> epd_python change_spval.py                # pour virer les -9999. dans l'ocean
+
+   -> sosie.x -f namelist.ifrac_SSMI            # drown = T sur mask ERA40-LB et mask sur output 
+
+   -> on obtient ifrac_SSMI-ERAi_1979-1998.nc
+
+!!!!!!!!!!!!
+!!! Attention il faudra redrowner les champs de t2/q2 corrected car sinon on aura des grosses diff sur les
+!!! archipels canadiens
+
+2. traitement de la climato POLES :
+
+   -> sosie.x -f namelist.POLES                 # pas de drown et pas de masque
+
+3. creation de moyennes mensuelles de t2 ERAinterim
+
+   make_means_t2.ksh                            # champ drowned non masked
+
+   3 bis - on le retourne a coup de sosie
+
+4. creation du fichier offset
+
+   cd offset_poles ; ./mnth_offset.x            # reecrit pour ERAinterim : -changement d'indice pour bande lat ou on divise par 1.6
+                                                #                           -changement de critere pour masquer ocean ouvert
+
+5. on corrige les t2 et q2 dans l'arctique
+
+   cd corr_t2q2/src

@@ -1,0 +1,7 @@
+1. Compute the climato for radsw and radlw - period 1984 -> 2006
+   in ERAinterim and DFS4.3
+
+2. Interpolation of DSF4.3 clims onto ERAinterim grid
+
+3. compute diff and tmp_ratio with compute_ratio_sw.py
+
