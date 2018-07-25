@@ -1,0 +1,20 @@
+# ####################################################
+# Macro for FARC Makefile on machine meolkerg
+
+## F90 : 
+F90=ifort
+# NetCDF library
+NCROOT=/opt/netcdf-4.1.1-ifort
+NCDF= -L$(NCROOT)/lib -I$(NCROOT)/include -lnetcdf
+
+FFLAGS= -O2 $(NCDF) -parallel
+
+## C :
+CC=gcc
+#GNU Scientific Library
+LIBGSL=/usr
+# NetCDF library
+LIBCDF=/usr
+
+CFLAGS= -Wall -O2 -I$(LIBGSL)/include -I$(LIBCDF)/include
+LFLAGS= -L$(LIBGSL)/lib -L$(LIBCDF)/lib -lgsl -lgslcblas -lm -lnetcdf

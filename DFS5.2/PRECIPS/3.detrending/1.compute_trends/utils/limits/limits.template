@@ -1,0 +1,26 @@
+
+### <VAR> ###
+
+<VAR>_map_annual_min                   =       0.       ; <VAR>_map_annual_max                   =       0.
+<VAR>_map_spring_min                   =       0.       ; <VAR>_map_spring_max                   =       0.
+<VAR>_map_summer_min                   =       0.       ; <VAR>_map_summer_max                   =       0.
+<VAR>_map_autumn_min                   =       0.       ; <VAR>_map_autumn_max                   =       0.
+<VAR>_map_winter_min                   =       0.       ; <VAR>_map_winter_max                   =       0.
+
+<VAR>_zonalmean_annual_min             =       0.       ; <VAR>_zonalmean_annual_max             =       0.
+<VAR>_zonalmean_spring_min             =       0.       ; <VAR>_zonalmean_spring_max             =       0.
+<VAR>_zonalmean_summer_min             =       0.       ; <VAR>_zonalmean_summer_max             =       0.
+<VAR>_zonalmean_autumn_min             =       0.       ; <VAR>_zonalmean_autumn_max             =       0.
+<VAR>_zonalmean_winter_min             =       0.       ; <VAR>_zonalmean_winter_max             =       0.
+
+
+<VAR>_timeserie_global_min             =       0.       ; <VAR>_timeserie_global_max             =       0.
+<VAR>_timeserie_Equatorial_Band_min    =       0.       ; <VAR>_timeserie_Equatorial_Band_max    =       0.
+<VAR>_timeserie_Polar_North_min        =       0.       ; <VAR>_timeserie_Polar_North_max        =       0.
+<VAR>_timeserie_Subpolar_North_min     =       0.       ; <VAR>_timeserie_Subpolar_North_max     =       0.
+<VAR>_timeserie_Subtropical_North_min  =       0.       ; <VAR>_timeserie_Subtropical_North_max  =       0.
+<VAR>_timeserie_Tropical_North_min     =       0.       ; <VAR>_timeserie_Tropical_North_max     =       0.
+<VAR>_timeserie_Polar_South_min        =       0.       ; <VAR>_timeserie_Polar_South_max        =       0.
+<VAR>_timeserie_Subpolar_South_min     =       0.       ; <VAR>_timeserie_Subpolar_South_max     =       0.
+<VAR>_timeserie_Subtropical_South_min  =       0.       ; <VAR>_timeserie_Subtropical_South_max  =       0.
+<VAR>_timeserie_Tropical_South_min     =       0.       ; <VAR>_timeserie_Tropical_South_max     =       0.
